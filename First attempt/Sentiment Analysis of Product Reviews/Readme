@@ -1,0 +1,17 @@
+Task Overview
+Description:
+Develop and evaluate a machine learning model to classify the sentiment (positive, negative, neutral) of customer reviews for a fictional product. This task involves text preprocessing, feature extraction, model training, and performance evaluation.
+Learning Objectives:
+Understand and implement text preprocessing techniques (e.g., tokenization, stop-word removal, stemming/lemmatization).
+Apply feature extraction methods like TF-IDF or Word Embeddings (e.g., Word2Vec, GloVe - pre-trained models can be used).
+Train and evaluate various classification models (e.g., Naive Bayes, Logistic Regression, Support Vector Machines, or a simple neural network).
+Understand and interpret evaluation metrics such as accuracy, precision, recall, F1-score, and confusion matrix.
+Practice data analysis and visualization of text data.
+Estimated Time: 40 hours
+Deliverables:
+A well-commented Jupyter Notebook or Python script detailing the data preprocessing, model training, and evaluation steps.
+A trained sentiment analysis model (e.g., saved using pickle or joblib).
+A short report (2-3 pages) summarizing the approach, results, challenges, and potential improvements.
+Mock Data:
+A CSV file named product_reviews.csv with columns: review_id, review_text, rating. Sentiment can be derived from rating (e.g., 1-2 stars: negative, 3 stars: neutral, 4-5 stars: positive).
+You can generate mock data using the Python script below.
